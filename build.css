@@ -1,0 +1,39 @@
+@keyframes finished {
+    0% { color: lime }
+    50% { color: lime }
+    51% { color: white }
+    100% { color: white }
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 18rem;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    font-size: 8rem;
+}
+
+.finished {
+    animation-duration: 1000ms;
+    animation-name: finished;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
