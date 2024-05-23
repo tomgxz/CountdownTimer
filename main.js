@@ -1,6 +1,9 @@
 const finish_time_hour = 17,
       finish_time_minutes = 0,
-      finish_time_seconds = 0;
+      finish_time_seconds = 0,
+      until_text = "until lunch";
+
+$("h2").text(until_text)
 
 var timer_finished = false;
 
