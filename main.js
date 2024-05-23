@@ -20,6 +20,8 @@ var interval = setInterval(function () {
         remaining_seconds = finish_time_seconds - current_time_seconds, 
         remaining_string;
 
+    console.log(current_time_object)
+
     if (current_time_minutes > finish_time_minutes) {
         remaining_hour -= 1
         remaining_minutes = finish_time_minutes + 60 - current_time_minutes
