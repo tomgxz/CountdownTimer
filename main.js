@@ -1,4 +1,4 @@
-const finish_time_hour = 17,
+const finish_time_hour = 13,
       finish_time_minutes = 0,
       finish_time_seconds = 0,
       until_text = "until lunch";
@@ -19,8 +19,6 @@ var interval = setInterval(function () {
         remaining_minutes = finish_time_minutes - current_time_minutes, 
         remaining_seconds = finish_time_seconds - current_time_seconds, 
         remaining_string;
-
-    console.log(current_time_object)
 
     if (current_time_minutes > finish_time_minutes) {
         remaining_hour -= 1
