@@ -1,5 +1,5 @@
 const finish_time_hour = 13,
-      finish_time_minutes = 0,
+      finish_time_minutes = 15,
       finish_time_seconds = 0,
       until_text = "until lunch";
 
