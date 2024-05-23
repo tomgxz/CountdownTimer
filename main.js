@@ -1,7 +1,7 @@
-const finish_time_hour = 13,
-      finish_time_minutes = 15,
+const finish_time_hour = 14,
+      finish_time_minutes = 30,
       finish_time_seconds = 0,
-      until_text = "until lunch";
+      until_text = "until Tom's production meeting";
 
 $("h2").text(until_text)
 
